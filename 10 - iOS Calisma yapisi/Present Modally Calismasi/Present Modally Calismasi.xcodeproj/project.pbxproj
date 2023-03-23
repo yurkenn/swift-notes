@@ -16,6 +16,8 @@
 		0A443DED29CC9D440001B2C9 /* Present_Modally_CalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A443DEC29CC9D440001B2C9 /* Present_Modally_CalismasiTests.swift */; };
 		0A443DF729CC9D440001B2C9 /* Present_Modally_CalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A443DF629CC9D440001B2C9 /* Present_Modally_CalismasiUITests.swift */; };
 		0A443DF929CC9D440001B2C9 /* Present_Modally_CalismasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A443DF829CC9D440001B2C9 /* Present_Modally_CalismasiUITestsLaunchTests.swift */; };
+		0A443E0629CCA0510001B2C9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A443E0529CCA0510001B2C9 /* ViewController2.swift */; };
+		0A443E0829CCA0770001B2C9 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A443E0729CCA0770001B2C9 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0A443DF229CC9D440001B2C9 /* Present Modally CalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Present Modally CalismasiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A443DF629CC9D440001B2C9 /* Present_Modally_CalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Present_Modally_CalismasiUITests.swift; sourceTree = "<group>"; };
 		0A443DF829CC9D440001B2C9 /* Present_Modally_CalismasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Present_Modally_CalismasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A443E0529CCA0510001B2C9 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		0A443E0729CCA0770001B2C9 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				0A443DDE29CC9D430001B2C9 /* Assets.xcassets */,
 				0A443DE029CC9D430001B2C9 /* LaunchScreen.storyboard */,
 				0A443DE329CC9D430001B2C9 /* Info.plist */,
+				0A443E0529CCA0510001B2C9 /* ViewController2.swift */,
+				0A443E0729CCA0770001B2C9 /* ViewController3.swift */,
 			);
 			path = "Present Modally Calismasi";
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A443E0829CCA0770001B2C9 /* ViewController3.swift in Sources */,
 				0A443DDA29CC9D420001B2C9 /* ViewController.swift in Sources */,
+				0A443E0629CCA0510001B2C9 /* ViewController2.swift in Sources */,
 				0A443DD629CC9D420001B2C9 /* AppDelegate.swift in Sources */,
 				0A443DD829CC9D420001B2C9 /* SceneDelegate.swift in Sources */,
 			);
