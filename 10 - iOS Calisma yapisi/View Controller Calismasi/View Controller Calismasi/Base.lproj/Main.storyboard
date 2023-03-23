@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Anasayfa-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="anasayfa" title="Anasayfa" id="BYZ-38-t0r" customClass="ViewController" customModule="View_Controller_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qh6-tj-JFM">
+                                <rect key="frame" x="175.66666666666666" y="203" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQa-1H-tDn">
+                                <rect key="frame" x="159" y="453" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="tiklan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x0q-eS-GCL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gis-tV-A18">
+                                <rect key="frame" x="175.66666666666666" y="571" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WR7-yv-D3K">
+                                <rect key="frame" x="175.66666666666666" y="665" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gis-tV-A18" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6pK-5Z-9wx"/>
+                            <constraint firstItem="qh6-tj-JFM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7D4-cI-fVu"/>
+                            <constraint firstItem="qh6-tj-JFM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="144" id="R85-uq-WRJ"/>
+                            <constraint firstItem="CQa-1H-tDn" firstAttribute="top" secondItem="qh6-tj-JFM" secondAttribute="bottom" constant="229" id="XlP-qJ-4a6"/>
+                            <constraint firstItem="WR7-yv-D3K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yo3-e1-dom"/>
+                            <constraint firstItem="CQa-1H-tDn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Znz-k2-T3s"/>
+                            <constraint firstItem="gis-tV-A18" firstAttribute="top" secondItem="CQa-1H-tDn" secondAttribute="bottom" constant="83" id="opJ-ci-roj"/>
+                            <constraint firstItem="WR7-yv-D3K" firstAttribute="top" secondItem="gis-tV-A18" secondAttribute="bottom" constant="73" id="uEy-bi-nTX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="etiket" destination="qh6-tj-JFM" id="t7U-Ot-Rkv"/>
+                        <outletCollection property="etiketler" destination="gis-tV-A18" collectionClass="NSMutableArray" id="LxO-mQ-btb"/>
+                        <outletCollection property="etiketler" destination="WR7-yv-D3K" collectionClass="NSMutableArray" id="diK-xm-Ugi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+        <!--Second Page-->
+        <scene sceneID="nIi-03-Lix">
+            <objects>
+                <viewController storyboardIdentifier="second page" title="Second Page" id="8ej-1i-paN" customClass="SecondVC" customModule="View_Controller_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LRA-rt-Zsd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0nH-8j-S02"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U9b-yJ-WpK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
