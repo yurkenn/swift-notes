@@ -11,9 +11,9 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Present_Modally_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sayfa1" id="BYZ-38-t0r" customClass="ViewController" customModule="Present_Modally_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfC-9Z-WkB">
@@ -36,7 +36,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="zkh-LO-VGs" kind="presentation" id="e0z-hc-eKx"/>
+                                    <action selector="goto2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CvC-cs-v6g"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -57,9 +57,9 @@
         <!--View Controller2-->
         <scene sceneID="4tf-fw-CTm">
             <objects>
-                <viewController id="zkh-LO-VGs" customClass="ViewController2" customModule="Present_Modally_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sayfa2" id="zkh-LO-VGs" customClass="ViewController2" customModule="Present_Modally_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Zi-KE-d4m">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1O-eq-wr3">
@@ -82,17 +82,36 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="MWT-1S-18m" kind="presentation" id="pjk-7v-JTH"/>
+                                    <action selector="goto3:" destination="zkh-LO-VGs" eventType="touchUpInside" id="BCW-z9-vBi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Td6-fr-R3Y">
+                                <rect key="frame" x="128" y="625" width="137" height="53"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Dismiss">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dissmiss:" destination="zkh-LO-VGs" eventType="touchUpInside" id="itb-Rv-K8I"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xsk-Hg-LlS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Td6-fr-R3Y" firstAttribute="centerX" secondItem="8Zi-KE-d4m" secondAttribute="centerX" id="7d0-qD-w7z"/>
                             <constraint firstItem="U1O-eq-wr3" firstAttribute="centerX" secondItem="8Zi-KE-d4m" secondAttribute="centerX" id="8Zt-QJ-tuT"/>
                             <constraint firstItem="mCQ-WN-gea" firstAttribute="top" secondItem="U1O-eq-wr3" secondAttribute="bottom" constant="140" id="Njo-dC-CUn"/>
                             <constraint firstItem="U1O-eq-wr3" firstAttribute="top" secondItem="xsk-Hg-LlS" secondAttribute="top" constant="177" id="e81-an-6bc"/>
                             <constraint firstItem="mCQ-WN-gea" firstAttribute="centerX" secondItem="8Zi-KE-d4m" secondAttribute="centerX" id="h3U-au-U00"/>
+                            <constraint firstItem="Td6-fr-R3Y" firstAttribute="top" secondItem="mCQ-WN-gea" secondAttribute="bottom" constant="72" id="hyc-qd-KNz"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -103,9 +122,9 @@
         <!--View Controller3-->
         <scene sceneID="Zgr-ZO-sbI">
             <objects>
-                <viewController id="MWT-1S-18m" customClass="ViewController3" customModule="Present_Modally_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sayfa3" id="MWT-1S-18m" customClass="ViewController3" customModule="Present_Modally_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W0y-8j-w4v">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ce7-y2-vkX">
@@ -128,7 +147,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="sHz-rK-Zvp"/>
+                                    <action selector="goto1:" destination="MWT-1S-18m" eventType="touchUpInside" id="Evj-Kl-iMc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LzN-9e-UJm">
@@ -145,7 +164,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="zkh-LO-VGs" kind="presentation" id="x0B-Kh-GK6"/>
+                                    <action selector="goto2:" destination="MWT-1S-18m" eventType="touchUpInside" id="Xb6-QO-Niv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -166,9 +185,6 @@
             <point key="canvasLocation" x="1547" y="-27"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="x0B-Kh-GK6"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
