@@ -16,6 +16,8 @@
 		0A6C14C429CDF057004E65E4 /* Kod_ile_Segue_GecisiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C14C329CDF057004E65E4 /* Kod_ile_Segue_GecisiTests.swift */; };
 		0A6C14CE29CDF057004E65E4 /* Kod_ile_Segue_GecisiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C14CD29CDF057004E65E4 /* Kod_ile_Segue_GecisiUITests.swift */; };
 		0A6C14D029CDF057004E65E4 /* Kod_ile_Segue_GecisiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C14CF29CDF057004E65E4 /* Kod_ile_Segue_GecisiUITestsLaunchTests.swift */; };
+		0A6C14DD29CDF2D1004E65E4 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C14DC29CDF2D1004E65E4 /* ViewController2.swift */; };
+		0A6C14DF29CDF584004E65E4 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C14DE29CDF584004E65E4 /* Kisiler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0A6C14C929CDF057004E65E4 /* Kod ile Segue GecisiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kod ile Segue GecisiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6C14CD29CDF057004E65E4 /* Kod_ile_Segue_GecisiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kod_ile_Segue_GecisiUITests.swift; sourceTree = "<group>"; };
 		0A6C14CF29CDF057004E65E4 /* Kod_ile_Segue_GecisiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kod_ile_Segue_GecisiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A6C14DC29CDF2D1004E65E4 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		0A6C14DE29CDF584004E65E4 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				0A6C14B529CDF056004E65E4 /* Assets.xcassets */,
 				0A6C14B729CDF056004E65E4 /* LaunchScreen.storyboard */,
 				0A6C14BA29CDF056004E65E4 /* Info.plist */,
+				0A6C14DC29CDF2D1004E65E4 /* ViewController2.swift */,
+				0A6C14DE29CDF584004E65E4 /* Kisiler.swift */,
 			);
 			path = "Kod ile Segue Gecisi";
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A6C14B129CDF055004E65E4 /* ViewController.swift in Sources */,
+				0A6C14DD29CDF2D1004E65E4 /* ViewController2.swift in Sources */,
 				0A6C14AD29CDF055004E65E4 /* AppDelegate.swift in Sources */,
 				0A6C14AF29CDF055004E65E4 /* SceneDelegate.swift in Sources */,
+				0A6C14DF29CDF584004E65E4 /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

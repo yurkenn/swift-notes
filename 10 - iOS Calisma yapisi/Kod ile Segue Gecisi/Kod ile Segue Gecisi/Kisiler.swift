@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+class Kisiler {
+    var kisiId:Int?
+    var kisiAdi:String?
+    
+    init(kisiId: Int? = nil, kisiAdi: String? = nil) {
+        self.kisiId = kisiId
+        self.kisiAdi = kisiAdi
+    }
+}
