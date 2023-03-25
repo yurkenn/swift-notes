@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5033EF29CF393400731964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5033EE29CF393400731964 /* AppDelegate.swift */; };
+		0A5033F129CF393400731964 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5033F029CF393400731964 /* SceneDelegate.swift */; };
+		0A5033F629CF393400731964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5033F429CF393400731964 /* Main.storyboard */; };
+		0A5033F829CF393400731964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5033F729CF393400731964 /* Assets.xcassets */; };
+		0A5033FB29CF393400731964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5033F929CF393400731964 /* LaunchScreen.storyboard */; };
+		0A50340629CF393500731964 /* Perform_Segue_TekrarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50340529CF393500731964 /* Perform_Segue_TekrarTests.swift */; };
+		0A50341029CF393500731964 /* Perform_Segue_TekrarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50340F29CF393500731964 /* Perform_Segue_TekrarUITests.swift */; };
+		0A50341229CF393500731964 /* Perform_Segue_TekrarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50341129CF393500731964 /* Perform_Segue_TekrarUITestsLaunchTests.swift */; };
+		0A50341F29CF398600731964 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50341E29CF398600731964 /* ViewControllerB.swift */; };
+		0A50342129CF399300731964 /* ViewControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50342029CF399300731964 /* ViewControllerC.swift */; };
+		0A6C183129CF42E200D5B423 /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C183029CF42E200D5B423 /* ViewControllerA.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A50340229CF393500731964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A5033E329CF393400731964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A5033EA29CF393400731964;
+			remoteInfo = "Perform Segue Tekrar";
+		};
+		0A50340C29CF393500731964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A5033E329CF393400731964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A5033EA29CF393400731964;
+			remoteInfo = "Perform Segue Tekrar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A5033EB29CF393400731964 /* Perform Segue Tekrar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Perform Segue Tekrar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5033EE29CF393400731964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A5033F029CF393400731964 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A5033F529CF393400731964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A5033F729CF393400731964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A5033FA29CF393400731964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A5033FC29CF393400731964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A50340129CF393500731964 /* Perform Segue TekrarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Perform Segue TekrarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A50340529CF393500731964 /* Perform_Segue_TekrarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perform_Segue_TekrarTests.swift; sourceTree = "<group>"; };
+		0A50340B29CF393500731964 /* Perform Segue TekrarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Perform Segue TekrarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A50340F29CF393500731964 /* Perform_Segue_TekrarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perform_Segue_TekrarUITests.swift; sourceTree = "<group>"; };
+		0A50341129CF393500731964 /* Perform_Segue_TekrarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perform_Segue_TekrarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A50341E29CF398600731964 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		0A50342029CF399300731964 /* ViewControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerC.swift; sourceTree = "<group>"; };
+		0A6C183029CF42E200D5B423 /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A5033E829CF393400731964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5033FE29CF393500731964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A50340829CF393500731964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5033E229CF393400731964 = {
+			isa = PBXGroup;
+			children = (
+				0A5033ED29CF393400731964 /* Perform Segue Tekrar */,
+				0A50340429CF393500731964 /* Perform Segue TekrarTests */,
+				0A50340E29CF393500731964 /* Perform Segue TekrarUITests */,
+				0A5033EC29CF393400731964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A5033EC29CF393400731964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A5033EB29CF393400731964 /* Perform Segue Tekrar.app */,
+				0A50340129CF393500731964 /* Perform Segue TekrarTests.xctest */,
+				0A50340B29CF393500731964 /* Perform Segue TekrarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A5033ED29CF393400731964 /* Perform Segue Tekrar */ = {
+			isa = PBXGroup;
+			children = (
+				0A5033EE29CF393400731964 /* AppDelegate.swift */,
+				0A5033F729CF393400731964 /* Assets.xcassets */,
+				0A5033FC29CF393400731964 /* Info.plist */,
+				0A5033F929CF393400731964 /* LaunchScreen.storyboard */,
+				0A5033F429CF393400731964 /* Main.storyboard */,
+				0A5033F029CF393400731964 /* SceneDelegate.swift */,
+				0A6C183029CF42E200D5B423 /* ViewControllerA.swift */,
+				0A50341E29CF398600731964 /* ViewControllerB.swift */,
+				0A50342029CF399300731964 /* ViewControllerC.swift */,
+			);
+			path = "Perform Segue Tekrar";
+			sourceTree = "<group>";
+		};
+		0A50340429CF393500731964 /* Perform Segue TekrarTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A50340529CF393500731964 /* Perform_Segue_TekrarTests.swift */,
+			);
+			path = "Perform Segue TekrarTests";
+			sourceTree = "<group>";
+		};
+		0A50340E29CF393500731964 /* Perform Segue TekrarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A50340F29CF393500731964 /* Perform_Segue_TekrarUITests.swift */,
+				0A50341129CF393500731964 /* Perform_Segue_TekrarUITestsLaunchTests.swift */,
+			);
+			path = "Perform Segue TekrarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A5033EA29CF393400731964 /* Perform Segue Tekrar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A50341529CF393500731964 /* Build configuration list for PBXNativeTarget "Perform Segue Tekrar" */;
+			buildPhases = (
+				0A5033E729CF393400731964 /* Sources */,
+				0A5033E829CF393400731964 /* Frameworks */,
+				0A5033E929CF393400731964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Perform Segue Tekrar";
+			productName = "Perform Segue Tekrar";
+			productReference = 0A5033EB29CF393400731964 /* Perform Segue Tekrar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A50340029CF393500731964 /* Perform Segue TekrarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A50341829CF393500731964 /* Build configuration list for PBXNativeTarget "Perform Segue TekrarTests" */;
+			buildPhases = (
+				0A5033FD29CF393500731964 /* Sources */,
+				0A5033FE29CF393500731964 /* Frameworks */,
+				0A5033FF29CF393500731964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A50340329CF393500731964 /* PBXTargetDependency */,
+			);
+			name = "Perform Segue TekrarTests";
+			productName = "Perform Segue TekrarTests";
+			productReference = 0A50340129CF393500731964 /* Perform Segue TekrarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A50340A29CF393500731964 /* Perform Segue TekrarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A50341B29CF393500731964 /* Build configuration list for PBXNativeTarget "Perform Segue TekrarUITests" */;
+			buildPhases = (
+				0A50340729CF393500731964 /* Sources */,
+				0A50340829CF393500731964 /* Frameworks */,
+				0A50340929CF393500731964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A50340D29CF393500731964 /* PBXTargetDependency */,
+			);
+			name = "Perform Segue TekrarUITests";
+			productName = "Perform Segue TekrarUITests";
+			productReference = 0A50340B29CF393500731964 /* Perform Segue TekrarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A5033E329CF393400731964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0A5033EA29CF393400731964 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0A50340029CF393500731964 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0A5033EA29CF393400731964;
+					};
+					0A50340A29CF393500731964 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0A5033EA29CF393400731964;
+					};
+				};
+			};
+			buildConfigurationList = 0A5033E629CF393400731964 /* Build configuration list for PBXProject "Perform Segue Tekrar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A5033E229CF393400731964;
+			productRefGroup = 0A5033EC29CF393400731964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A5033EA29CF393400731964 /* Perform Segue Tekrar */,
+				0A50340029CF393500731964 /* Perform Segue TekrarTests */,
+				0A50340A29CF393500731964 /* Perform Segue TekrarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A5033E929CF393400731964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5033FB29CF393400731964 /* LaunchScreen.storyboard in Resources */,
+				0A5033F829CF393400731964 /* Assets.xcassets in Resources */,
+				0A5033F629CF393400731964 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5033FF29CF393500731964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A50340929CF393500731964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A5033E729CF393400731964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A50341F29CF398600731964 /* ViewControllerB.swift in Sources */,
+				0A50342129CF399300731964 /* ViewControllerC.swift in Sources */,
+				0A5033EF29CF393400731964 /* AppDelegate.swift in Sources */,
+				0A6C183129CF42E200D5B423 /* ViewControllerA.swift in Sources */,
+				0A5033F129CF393400731964 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5033FD29CF393500731964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A50340629CF393500731964 /* Perform_Segue_TekrarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A50340729CF393500731964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A50341029CF393500731964 /* Perform_Segue_TekrarUITests.swift in Sources */,
+				0A50341229CF393500731964 /* Perform_Segue_TekrarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A50340329CF393500731964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A5033EA29CF393400731964 /* Perform Segue Tekrar */;
+			targetProxy = 0A50340229CF393500731964 /* PBXContainerItemProxy */;
+		};
+		0A50340D29CF393500731964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A5033EA29CF393400731964 /* Perform Segue Tekrar */;
+			targetProxy = 0A50340C29CF393500731964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A5033F429CF393400731964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A5033F529CF393400731964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A5033F929CF393400731964 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A5033FA29CF393400731964 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A50341329CF393500731964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A50341429CF393500731964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A50341629CF393500731964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Perform Segue Tekrar/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yurken.Perform-Segue-Tekrar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A50341729CF393500731964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Perform Segue Tekrar/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yurken.Perform-Segue-Tekrar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A50341929CF393500731964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yurken.Perform-Segue-TekrarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perform Segue Tekrar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Perform Segue Tekrar";
+			};
+			name = Debug;
+		};
+		0A50341A29CF393500731964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yurken.Perform-Segue-TekrarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perform Segue Tekrar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Perform Segue Tekrar";
+			};
+			name = Release;
+		};
+		0A50341C29CF393500731964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yurken.Perform-Segue-TekrarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Perform Segue Tekrar";
+			};
+			name = Debug;
+		};
+		0A50341D29CF393500731964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yurken.Perform-Segue-TekrarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Perform Segue Tekrar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A5033E629CF393400731964 /* Build configuration list for PBXProject "Perform Segue Tekrar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A50341329CF393500731964 /* Debug */,
+				0A50341429CF393500731964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A50341529CF393500731964 /* Build configuration list for PBXNativeTarget "Perform Segue Tekrar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A50341629CF393500731964 /* Debug */,
+				0A50341729CF393500731964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A50341829CF393500731964 /* Build configuration list for PBXNativeTarget "Perform Segue TekrarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A50341929CF393500731964 /* Debug */,
+				0A50341A29CF393500731964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A50341B29CF393500731964 /* Build configuration list for PBXNativeTarget "Perform Segue TekrarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A50341C29CF393500731964 /* Debug */,
+				0A50341D29CF393500731964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A5033E329CF393400731964 /* Project object */;
+}
