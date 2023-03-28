@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2ow-t4-1xZ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profil-->
+        <scene sceneID="ZfN-ap-B0B">
+            <objects>
+                <viewController id="Dff-rT-03L" customClass="ProfileVC" customModule="tabBar_ve_navation_birlikte_kullanimi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h2y-iD-hE4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUZ-Mf-wbF">
+                                <rect key="frame" x="106.00000000000001" y="167" width="181.33333333333337" height="102.66666666666669"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="86"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7j8-3o-Nan">
+                                <rect key="frame" x="116" y="457.66666666666669" width="161" height="49"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Profil arttir">
+                                            <attributes>
+                                                <font key="NSFont" size="30" name="Helvetica"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="profileButton:" destination="Dff-rT-03L" eventType="touchUpInside" id="wrC-F9-NKK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HB0-KS-uYk">
+                                <rect key="frame" x="141.66666666666666" y="581.66666666666663" width="110" height="49"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Is arttr">
+                                            <attributes>
+                                                <font key="NSFont" size="30" name="Helvetica"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="workButton:" destination="Dff-rT-03L" eventType="touchUpInside" id="sgF-W6-PXN"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DoF-tX-hK6">
+                                <rect key="frame" x="25" y="362" width="343" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="33b-8S-DuI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DoF-tX-hK6" firstAttribute="top" secondItem="sUZ-Mf-wbF" secondAttribute="bottom" constant="92.329999999999998" id="2hF-b8-gFc"/>
+                            <constraint firstItem="HB0-KS-uYk" firstAttribute="centerX" secondItem="h2y-iD-hE4" secondAttribute="centerX" id="7VM-RG-3sA"/>
+                            <constraint firstItem="DoF-tX-hK6" firstAttribute="centerX" secondItem="h2y-iD-hE4" secondAttribute="centerX" id="8uq-eO-3xm"/>
+                            <constraint firstItem="7j8-3o-Nan" firstAttribute="centerX" secondItem="h2y-iD-hE4" secondAttribute="centerX" id="H3G-VC-Pba"/>
+                            <constraint firstItem="DoF-tX-hK6" firstAttribute="leading" secondItem="33b-8S-DuI" secondAttribute="leading" constant="25" id="INT-AK-EvK"/>
+                            <constraint firstItem="sUZ-Mf-wbF" firstAttribute="top" secondItem="33b-8S-DuI" secondAttribute="top" constant="64" id="Kyb-tF-oHD"/>
+                            <constraint firstItem="HB0-KS-uYk" firstAttribute="top" secondItem="7j8-3o-Nan" secondAttribute="bottom" constant="75" id="dT3-YT-eeA"/>
+                            <constraint firstItem="7j8-3o-Nan" firstAttribute="top" secondItem="sUZ-Mf-wbF" secondAttribute="bottom" constant="188" id="igc-p9-3p7"/>
+                            <constraint firstItem="sUZ-Mf-wbF" firstAttribute="centerX" secondItem="h2y-iD-hE4" secondAttribute="centerX" id="lzA-ku-dCl"/>
+                            <constraint firstItem="33b-8S-DuI" firstAttribute="trailing" secondItem="DoF-tX-hK6" secondAttribute="trailing" constant="25" id="yx2-8o-XiV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profil" id="f1I-SC-SFc">
+                        <barButtonItem key="rightBarButtonItem" title="Detay" changesSelectionAsPrimaryAction="YES" id="x7U-fn-adL">
+                            <color key="tintColor" red="0.96862745100000003" green="0.3468521839" blue="0.044458124000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="goToDetail:" destination="Dff-rT-03L" id="xiO-un-W2r"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textField" destination="DoF-tX-hK6" id="grr-Pt-wFz"/>
+                        <segue destination="ha3-uf-ycm" kind="show" identifier="goToDetail" id="piS-Mt-tj0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hSY-9Q-Iw3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1828.2442748091603" y="-549.29577464788736"/>
+        </scene>
+        <!--Profil Detay-->
+        <scene sceneID="KgB-8o-ZUg">
+            <objects>
+                <viewController id="ha3-uf-ycm" customClass="DetailVC" customModule="tabBar_ve_navation_birlikte_kullanimi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X3g-pe-XWF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profil Detay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="333-7e-iLu">
+                                <rect key="frame" x="110.66666666666669" y="256" width="172" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aP-ah-WAR">
+                                <rect key="frame" x="162" y="409" width="69" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Qfe-eL-pXw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0aP-ah-WAR" firstAttribute="centerX" secondItem="X3g-pe-XWF" secondAttribute="centerX" id="68A-26-jf5"/>
+                            <constraint firstItem="333-7e-iLu" firstAttribute="centerX" secondItem="X3g-pe-XWF" secondAttribute="centerX" id="D73-bw-W0K"/>
+                            <constraint firstItem="0aP-ah-WAR" firstAttribute="top" secondItem="333-7e-iLu" secondAttribute="bottom" constant="111" id="E1Q-Kv-2KI"/>
+                            <constraint firstItem="333-7e-iLu" firstAttribute="top" secondItem="Qfe-eL-pXw" secondAttribute="top" constant="153" id="mie-au-jHb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profil Detay" id="inN-lK-XEe"/>
+                    <connections>
+                        <outlet property="etiket" destination="0aP-ah-WAR" id="l6z-eR-Bgf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O6d-ct-6p2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2616.030534351145" y="-549.29577464788736"/>
+        </scene>
+        <!--Work-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tabBar_ve_navation_birlikte_kullanimi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLq-uC-2Hp">
+                                <rect key="frame" x="86.666666666666686" y="178" width="220" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iLq-uC-2Hp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KkQ-17-V2h"/>
+                            <constraint firstItem="iLq-uC-2Hp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="119" id="hcP-IV-kfZ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Work" image="network" catalog="system" id="SNK-VM-aMw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902" y="172"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="cfm-x5-vks">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2ow-t4-1xZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dbf-an-ssp">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="1QI-mZ-Dp2"/>
+                        <segue destination="Qxq-dC-USI" kind="relationship" relationship="viewControllers" id="B6q-Yh-ThX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ObH-75-sUm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.79389312977099" y="-27.464788732394368"/>
+        </scene>
+        <!--Profil-->
+        <scene sceneID="asP-Z5-Nkv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qxq-dC-USI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="1" title="Profil" image="person.fill" catalog="system" id="4s9-EW-6Xc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pAE-3U-h66">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Dff-rT-03L" kind="relationship" relationship="rootViewController" id="skk-TI-1tc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aNv-7R-5g5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="901.52671755725191" y="-549.29577464788736"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="network" catalog="system" width="128" height="123"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
