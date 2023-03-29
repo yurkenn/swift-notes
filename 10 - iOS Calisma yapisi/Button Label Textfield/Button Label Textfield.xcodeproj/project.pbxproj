@@ -18,6 +18,7 @@
 		0AAE2DF929D3777F0026660A /* Button_Label_TextfieldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE2DF829D3777F0026660A /* Button_Label_TextfieldUITestsLaunchTests.swift */; };
 		0AAE2E0629D3853A0026660A /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE2E0529D3853A0026660A /* ViewControllerB.swift */; };
 		0AAE2E0829D388660026660A /* ViewControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE2E0729D388660026660A /* ViewControllerC.swift */; };
+		0AAE2E0A29D38C4E0026660A /* ViewControllerD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE2E0929D38C4D0026660A /* ViewControllerD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0AAE2DF829D3777F0026660A /* Button_Label_TextfieldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_Label_TextfieldUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0AAE2E0529D3853A0026660A /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
 		0AAE2E0729D388660026660A /* ViewControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerC.swift; sourceTree = "<group>"; };
+		0AAE2E0929D38C4D0026660A /* ViewControllerD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				0AAE2DE329D3777F0026660A /* Info.plist */,
 				0AAE2E0529D3853A0026660A /* ViewControllerB.swift */,
 				0AAE2E0729D388660026660A /* ViewControllerC.swift */,
+				0AAE2E0929D38C4D0026660A /* ViewControllerD.swift */,
 			);
 			path = "Button Label Textfield";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				0AAE2E0829D388660026660A /* ViewControllerC.swift in Sources */,
 				0AAE2DD629D3777D0026660A /* AppDelegate.swift in Sources */,
 				0AAE2DD829D3777D0026660A /* SceneDelegate.swift in Sources */,
+				0AAE2E0A29D38C4E0026660A /* ViewControllerD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
