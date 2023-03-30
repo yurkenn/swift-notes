@@ -85,7 +85,7 @@
                                 <color key="textColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arttir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcO-hI-0Wx">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arttir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcO-hI-0Wx">
                                 <rect key="frame" x="153.66666666666666" y="278" width="86" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
@@ -111,6 +111,9 @@
                                     </attributedString>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="tahminEt:" destination="1AS-kF-gDa" eventType="touchUpInside" id="4IM-TE-6MS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wee-UT-Oxc"/>
@@ -130,7 +133,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="Tahmin Ekrani" id="QHD-yw-7Np"/>
                     <connections>
-                        <segue destination="PyZ-QZ-Hnv" kind="show" id="4dM-As-OjM"/>
+                        <outlet property="labelKalanHak" destination="l8Y-8R-DSj" id="PoW-Px-aI2"/>
+                        <outlet property="labelYardim" destination="bcO-hI-0Wx" id="UUh-UH-ePi"/>
+                        <outlet property="textFieldGirdi" destination="OCk-Fs-EZH" id="2Hk-E2-OMz"/>
+                        <segue destination="PyZ-QZ-Hnv" kind="show" identifier="tahminToSonuc" id="4dM-As-OjM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lmZ-4M-OBz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -160,20 +166,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMg-Cm-Yao">
-                                <rect key="frame" x="107.33333333333333" y="576" width="178.66666666666669" height="45.333333333333371"/>
+                                <rect key="frame" x="102.66666666666667" y="576" width="187.66666666666663" height="48.666666666666629"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Oyuna Basla">
+                                        <fragment content="Tekrar Oyna">
                                             <attributes>
-                                                <font key="NSFont" size="27" name="Helvetica"/>
-                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <font key="NSFont" size="30" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="tekrarOyna:" destination="PyZ-QZ-Hnv" eventType="touchUpInside" id="41g-tN-RUj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YcI-IC-Ng0"/>
@@ -188,10 +197,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Tqt-Pe-HYy"/>
+                    <connections>
+                        <outlet property="imageViewSonuc" destination="Wvy-3x-xVA" id="krU-Ci-Xhl"/>
+                        <outlet property="labelSonuc" destination="Mwu-Rc-Ogk" id="hjS-4X-SpZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7f5-7x-5o4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2269.4656488549617" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="2360" y="-27"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2jn-me-bgh">
