@@ -16,8 +16,8 @@
 		0A0C360D29DB5EB200137FA8 /* Detayl__TableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C360C29DB5EB200137FA8 /* Detayl__TableViewCellTests.swift */; };
 		0A0C361729DB5EB200137FA8 /* Detayl__TableViewCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C361629DB5EB200137FA8 /* Detayl__TableViewCellUITests.swift */; };
 		0A0C361929DB5EB200137FA8 /* Detayl__TableViewCellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C361829DB5EB200137FA8 /* Detayl__TableViewCellUITestsLaunchTests.swift */; };
-		0A0C362629DB615A00137FA8 /* YemekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C362529DB615A00137FA8 /* YemekTableViewCell.swift */; };
-		0A0C362829DB62A700137FA8 /* Yemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C362729DB62A700137FA8 /* Yemekler.swift */; };
+		0A9CDEF229E192770033292D /* YemekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CDEF129E192770033292D /* YemekTableViewCell.swift */; };
+		0A9CDEF429E1942D0033292D /* Yemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CDEF329E1942D0033292D /* Yemekler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		0A0C361229DB5EB200137FA8 /* Detaylı TableViewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Detaylı TableViewCellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0C361629DB5EB200137FA8 /* Detayl__TableViewCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detayl__TableViewCellUITests.swift; sourceTree = "<group>"; };
 		0A0C361829DB5EB200137FA8 /* Detayl__TableViewCellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detayl__TableViewCellUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0A0C362529DB615A00137FA8 /* YemekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekTableViewCell.swift; sourceTree = "<group>"; };
-		0A0C362729DB62A700137FA8 /* Yemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yemekler.swift; sourceTree = "<group>"; };
+		0A9CDEF129E192770033292D /* YemekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekTableViewCell.swift; sourceTree = "<group>"; };
+		0A9CDEF329E1942D0033292D /* Yemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yemekler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,8 @@
 				0A0C35FE29DB5EB200137FA8 /* Assets.xcassets */,
 				0A0C360029DB5EB200137FA8 /* LaunchScreen.storyboard */,
 				0A0C360329DB5EB200137FA8 /* Info.plist */,
-				0A0C362529DB615A00137FA8 /* YemekTableViewCell.swift */,
-				0A0C362729DB62A700137FA8 /* Yemekler.swift */,
+				0A9CDEF129E192770033292D /* YemekTableViewCell.swift */,
+				0A9CDEF329E1942D0033292D /* Yemekler.swift */,
 			);
 			path = "Detaylı TableViewCell";
 			sourceTree = "<group>";
@@ -264,9 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0C362829DB62A700137FA8 /* Yemekler.swift in Sources */,
+				0A9CDEF429E1942D0033292D /* Yemekler.swift in Sources */,
 				0A0C35FA29DB5EB100137FA8 /* ViewController.swift in Sources */,
-				0A0C362629DB615A00137FA8 /* YemekTableViewCell.swift in Sources */,
+				0A9CDEF229E192770033292D /* YemekTableViewCell.swift in Sources */,
 				0A0C35F629DB5EB100137FA8 /* AppDelegate.swift in Sources */,
 				0A0C35F829DB5EB100137FA8 /* SceneDelegate.swift in Sources */,
 			);
