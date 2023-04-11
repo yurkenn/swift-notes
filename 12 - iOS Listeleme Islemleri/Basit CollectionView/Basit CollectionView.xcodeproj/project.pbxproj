@@ -101,14 +101,14 @@
 		0A9CDF0029E19ADA0033292D /* Basit CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				0A9CDF0F29E19ADC0033292D /* Info.plist */,
 				0A9CDF0129E19ADA0033292D /* AppDelegate.swift */,
+				0A9CDF3129E19B7A0033292D /* CollectionViewCell.swift */,
 				0A9CDF0329E19ADA0033292D /* SceneDelegate.swift */,
 				0A9CDF0529E19ADA0033292D /* ViewController.swift */,
-				0A9CDF0729E19ADA0033292D /* Main.storyboard */,
 				0A9CDF0A29E19ADC0033292D /* Assets.xcassets */,
 				0A9CDF0C29E19ADC0033292D /* LaunchScreen.storyboard */,
-				0A9CDF0F29E19ADC0033292D /* Info.plist */,
-				0A9CDF3129E19B7A0033292D /* CollectionViewCell.swift */,
+				0A9CDF0729E19ADA0033292D /* Main.storyboard */,
 			);
 			path = "Basit CollectionView";
 			sourceTree = "<group>";
