@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="so3-Jc-Rh2">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Login_Ugulamasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kullanici adi" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H9X-T0-oSx">
+                                <rect key="frame" x="40" y="316" width="313" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="sifre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Is-Ji-wpP">
+                                <rect key="frame" x="40" y="396" width="313" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjY-fo-eV7">
+                                <rect key="frame" x="167.33333333333334" y="533" width="58.333333333333343" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Giris"/>
+                                <connections>
+                                    <action selector="girisButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CnV-Jy-ke9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <constraints>
+                            <constraint firstItem="H9X-T0-oSx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="213" id="1rX-76-Fdt"/>
+                            <constraint firstItem="3Is-Ji-wpP" firstAttribute="top" secondItem="H9X-T0-oSx" secondAttribute="bottom" constant="46" id="7DT-Fn-AEu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Is-Ji-wpP" secondAttribute="trailing" constant="40" id="DjY-5f-vyu"/>
+                            <constraint firstItem="tjY-fo-eV7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ok1-dU-h2j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H9X-T0-oSx" secondAttribute="trailing" constant="40" id="ZCJ-Yc-9YU"/>
+                            <constraint firstItem="3Is-Ji-wpP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="fWL-4g-vlf"/>
+                            <constraint firstItem="H9X-T0-oSx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="gNZ-Yt-NJf"/>
+                            <constraint firstItem="tjY-fo-eV7" firstAttribute="top" secondItem="3Is-Ji-wpP" secondAttribute="bottom" constant="103" id="jQo-1C-mha"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Quq-Wz-b9y"/>
+                    <connections>
+                        <outlet property="textFieldKullaniciAdi" destination="H9X-T0-oSx" id="bkc-zC-Mho"/>
+                        <outlet property="textFieldSifre" destination="3Is-Ji-wpP" id="7P2-iw-ess"/>
+                        <segue destination="PNF-RV-zzh" kind="show" identifier="girisToanasayfa" id="ew7-fm-zae"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="-27"/>
+        </scene>
+        <!--Anasayfa-->
+        <scene sceneID="yc8-G6-xfr">
+            <objects>
+                <viewController id="PNF-RV-zzh" customClass="AnaSayfaVC" customModule="Login_Ugulamasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0xn-RR-07O">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORn-dm-bhf">
+                                <rect key="frame" x="138" y="396" width="117" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="T2o-nw-Gmj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ORn-dm-bhf" firstAttribute="centerX" secondItem="0xn-RR-07O" secondAttribute="centerX" id="Ibd-4H-khx"/>
+                            <constraint firstItem="ORn-dm-bhf" firstAttribute="centerY" secondItem="0xn-RR-07O" secondAttribute="centerY" id="IpP-yu-YXY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Anasayfa" id="p76-p2-j1v">
+                        <barButtonItem key="rightBarButtonItem" title="Cikis" id="MUN-9S-Yah">
+                            <connections>
+                                <action selector="buttonCikis:" destination="PNF-RV-zzh" id="PHA-J1-Dfk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="labelSonuc" destination="ORn-dm-bhf" id="4b4-jP-24d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zvB-ln-ylt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1650" y="-27"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dQu-mJ-o6B">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="so3-Jc-Rh2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="I5O-9n-FVd">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0z2-pd-XgT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bfT-h2-z4m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="331" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

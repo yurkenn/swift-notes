@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE9D25529E8466C007F54A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9D25429E8466C007F54A9 /* AppDelegate.swift */; };
+		0AE9D25729E8466C007F54A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9D25629E8466C007F54A9 /* SceneDelegate.swift */; };
+		0AE9D25929E8466C007F54A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9D25829E8466C007F54A9 /* ViewController.swift */; };
+		0AE9D25C29E8466C007F54A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE9D25A29E8466C007F54A9 /* Main.storyboard */; };
+		0AE9D25E29E8466E007F54A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE9D25D29E8466E007F54A9 /* Assets.xcassets */; };
+		0AE9D26129E8466E007F54A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE9D25F29E8466E007F54A9 /* LaunchScreen.storyboard */; };
+		0AE9D26C29E8466E007F54A9 /* Login_UgulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9D26B29E8466E007F54A9 /* Login_UgulamasiTests.swift */; };
+		0AE9D27629E8466E007F54A9 /* Login_UgulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9D27529E8466E007F54A9 /* Login_UgulamasiUITests.swift */; };
+		0AE9D27829E8466E007F54A9 /* Login_UgulamasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9D27729E8466E007F54A9 /* Login_UgulamasiUITestsLaunchTests.swift */; };
+		0AE9D28529E8470E007F54A9 /* AnaSayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9D28429E8470E007F54A9 /* AnaSayfaVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AE9D26829E8466E007F54A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AE9D24929E8466C007F54A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AE9D25029E8466C007F54A9;
+			remoteInfo = "Login Ugulamasi";
+		};
+		0AE9D27229E8466E007F54A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AE9D24929E8466C007F54A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AE9D25029E8466C007F54A9;
+			remoteInfo = "Login Ugulamasi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AE9D25129E8466C007F54A9 /* Login Ugulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Ugulamasi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE9D25429E8466C007F54A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AE9D25629E8466C007F54A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0AE9D25829E8466C007F54A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0AE9D25B29E8466C007F54A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AE9D25D29E8466E007F54A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AE9D26029E8466E007F54A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AE9D26229E8466E007F54A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE9D26729E8466E007F54A9 /* Login UgulamasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login UgulamasiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE9D26B29E8466E007F54A9 /* Login_UgulamasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_UgulamasiTests.swift; sourceTree = "<group>"; };
+		0AE9D27129E8466E007F54A9 /* Login UgulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login UgulamasiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE9D27529E8466E007F54A9 /* Login_UgulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_UgulamasiUITests.swift; sourceTree = "<group>"; };
+		0AE9D27729E8466E007F54A9 /* Login_UgulamasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_UgulamasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AE9D28429E8470E007F54A9 /* AnaSayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AE9D24E29E8466C007F54A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE9D26429E8466E007F54A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE9D26E29E8466E007F54A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE9D24829E8466C007F54A9 = {
+			isa = PBXGroup;
+			children = (
+				0AE9D25329E8466C007F54A9 /* Login Ugulamasi */,
+				0AE9D26A29E8466E007F54A9 /* Login UgulamasiTests */,
+				0AE9D27429E8466E007F54A9 /* Login UgulamasiUITests */,
+				0AE9D25229E8466C007F54A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AE9D25229E8466C007F54A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AE9D25129E8466C007F54A9 /* Login Ugulamasi.app */,
+				0AE9D26729E8466E007F54A9 /* Login UgulamasiTests.xctest */,
+				0AE9D27129E8466E007F54A9 /* Login UgulamasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AE9D25329E8466C007F54A9 /* Login Ugulamasi */ = {
+			isa = PBXGroup;
+			children = (
+				0AE9D25429E8466C007F54A9 /* AppDelegate.swift */,
+				0AE9D25629E8466C007F54A9 /* SceneDelegate.swift */,
+				0AE9D25829E8466C007F54A9 /* ViewController.swift */,
+				0AE9D25A29E8466C007F54A9 /* Main.storyboard */,
+				0AE9D25D29E8466E007F54A9 /* Assets.xcassets */,
+				0AE9D25F29E8466E007F54A9 /* LaunchScreen.storyboard */,
+				0AE9D26229E8466E007F54A9 /* Info.plist */,
+				0AE9D28429E8470E007F54A9 /* AnaSayfaVC.swift */,
+			);
+			path = "Login Ugulamasi";
+			sourceTree = "<group>";
+		};
+		0AE9D26A29E8466E007F54A9 /* Login UgulamasiTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AE9D26B29E8466E007F54A9 /* Login_UgulamasiTests.swift */,
+			);
+			path = "Login UgulamasiTests";
+			sourceTree = "<group>";
+		};
+		0AE9D27429E8466E007F54A9 /* Login UgulamasiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AE9D27529E8466E007F54A9 /* Login_UgulamasiUITests.swift */,
+				0AE9D27729E8466E007F54A9 /* Login_UgulamasiUITestsLaunchTests.swift */,
+			);
+			path = "Login UgulamasiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AE9D25029E8466C007F54A9 /* Login Ugulamasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE9D27B29E8466E007F54A9 /* Build configuration list for PBXNativeTarget "Login Ugulamasi" */;
+			buildPhases = (
+				0AE9D24D29E8466C007F54A9 /* Sources */,
+				0AE9D24E29E8466C007F54A9 /* Frameworks */,
+				0AE9D24F29E8466C007F54A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Login Ugulamasi";
+			productName = "Login Ugulamasi";
+			productReference = 0AE9D25129E8466C007F54A9 /* Login Ugulamasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AE9D26629E8466E007F54A9 /* Login UgulamasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE9D27E29E8466E007F54A9 /* Build configuration list for PBXNativeTarget "Login UgulamasiTests" */;
+			buildPhases = (
+				0AE9D26329E8466E007F54A9 /* Sources */,
+				0AE9D26429E8466E007F54A9 /* Frameworks */,
+				0AE9D26529E8466E007F54A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AE9D26929E8466E007F54A9 /* PBXTargetDependency */,
+			);
+			name = "Login UgulamasiTests";
+			productName = "Login UgulamasiTests";
+			productReference = 0AE9D26729E8466E007F54A9 /* Login UgulamasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AE9D27029E8466E007F54A9 /* Login UgulamasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE9D28129E8466E007F54A9 /* Build configuration list for PBXNativeTarget "Login UgulamasiUITests" */;
+			buildPhases = (
+				0AE9D26D29E8466E007F54A9 /* Sources */,
+				0AE9D26E29E8466E007F54A9 /* Frameworks */,
+				0AE9D26F29E8466E007F54A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AE9D27329E8466E007F54A9 /* PBXTargetDependency */,
+			);
+			name = "Login UgulamasiUITests";
+			productName = "Login UgulamasiUITests";
+			productReference = 0AE9D27129E8466E007F54A9 /* Login UgulamasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AE9D24929E8466C007F54A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0AE9D25029E8466C007F54A9 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					0AE9D26629E8466E007F54A9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0AE9D25029E8466C007F54A9;
+					};
+					0AE9D27029E8466E007F54A9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0AE9D25029E8466C007F54A9;
+					};
+				};
+			};
+			buildConfigurationList = 0AE9D24C29E8466C007F54A9 /* Build configuration list for PBXProject "Login Ugulamasi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AE9D24829E8466C007F54A9;
+			productRefGroup = 0AE9D25229E8466C007F54A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AE9D25029E8466C007F54A9 /* Login Ugulamasi */,
+				0AE9D26629E8466E007F54A9 /* Login UgulamasiTests */,
+				0AE9D27029E8466E007F54A9 /* Login UgulamasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AE9D24F29E8466C007F54A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE9D26129E8466E007F54A9 /* LaunchScreen.storyboard in Resources */,
+				0AE9D25E29E8466E007F54A9 /* Assets.xcassets in Resources */,
+				0AE9D25C29E8466C007F54A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE9D26529E8466E007F54A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE9D26F29E8466E007F54A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AE9D24D29E8466C007F54A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE9D28529E8470E007F54A9 /* AnaSayfaVC.swift in Sources */,
+				0AE9D25929E8466C007F54A9 /* ViewController.swift in Sources */,
+				0AE9D25529E8466C007F54A9 /* AppDelegate.swift in Sources */,
+				0AE9D25729E8466C007F54A9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE9D26329E8466E007F54A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE9D26C29E8466E007F54A9 /* Login_UgulamasiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE9D26D29E8466E007F54A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE9D27629E8466E007F54A9 /* Login_UgulamasiUITests.swift in Sources */,
+				0AE9D27829E8466E007F54A9 /* Login_UgulamasiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AE9D26929E8466E007F54A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AE9D25029E8466C007F54A9 /* Login Ugulamasi */;
+			targetProxy = 0AE9D26829E8466E007F54A9 /* PBXContainerItemProxy */;
+		};
+		0AE9D27329E8466E007F54A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AE9D25029E8466C007F54A9 /* Login Ugulamasi */;
+			targetProxy = 0AE9D27229E8466E007F54A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AE9D25A29E8466C007F54A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AE9D25B29E8466C007F54A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AE9D25F29E8466E007F54A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AE9D26029E8466E007F54A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AE9D27929E8466E007F54A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AE9D27A29E8466E007F54A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AE9D27C29E8466E007F54A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Login Ugulamasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yurken.Login-Ugulamasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AE9D27D29E8466E007F54A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Login Ugulamasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yurken.Login-Ugulamasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AE9D27F29E8466E007F54A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yurken.Login-UgulamasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login Ugulamasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Login Ugulamasi";
+			};
+			name = Debug;
+		};
+		0AE9D28029E8466E007F54A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yurken.Login-UgulamasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login Ugulamasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Login Ugulamasi";
+			};
+			name = Release;
+		};
+		0AE9D28229E8466E007F54A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yurken.Login-UgulamasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Login Ugulamasi";
+			};
+			name = Debug;
+		};
+		0AE9D28329E8466E007F54A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yurken.Login-UgulamasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Login Ugulamasi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AE9D24C29E8466C007F54A9 /* Build configuration list for PBXProject "Login Ugulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE9D27929E8466E007F54A9 /* Debug */,
+				0AE9D27A29E8466E007F54A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AE9D27B29E8466E007F54A9 /* Build configuration list for PBXNativeTarget "Login Ugulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE9D27C29E8466E007F54A9 /* Debug */,
+				0AE9D27D29E8466E007F54A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AE9D27E29E8466E007F54A9 /* Build configuration list for PBXNativeTarget "Login UgulamasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE9D27F29E8466E007F54A9 /* Debug */,
+				0AE9D28029E8466E007F54A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AE9D28129E8466E007F54A9 /* Build configuration list for PBXNativeTarget "Login UgulamasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE9D28229E8466E007F54A9 /* Debug */,
+				0AE9D28329E8466E007F54A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AE9D24929E8466C007F54A9 /* Project object */;
+}
